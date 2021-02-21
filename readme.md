@@ -8,7 +8,7 @@ This application provides an api endpoint to bitcoint-frontend application which
 
 - After taking clone, please install composer in terminal.
 - set envrionmental variable in .env file APP_URL=http://local.bitcoin-api.com (VirtualHost must be configured for this) i.e hosts and Apache httpd.conf
-- To executed 2 unit tests, run command  ./vendor/bin/phpunit
+- To execute unit tests, run command  ./vendor/bin/phpunit
 
 
 
