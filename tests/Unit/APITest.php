@@ -34,6 +34,6 @@ class APITest extends TestCase
         $end 	 = "2021-01-01";   
         $url     = "http://local.bitcoin-api.com/api/coindesk/historical_bpi_data?start=".$start."&end=".$end;
         $response = $this->get($url);
-        $response->assertStatus(500);
+        $response->assertStatus(400);
     }
 }
