@@ -56,6 +56,7 @@ class Handler extends ExceptionHandler
         $response = [
             'errors' => 'Sorry, something went wrong.'
         ];
+        \Log::debug($exception);
         return response()->json($response, $status);
         //return parent::render($request, $exception);
     }
